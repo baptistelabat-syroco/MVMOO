@@ -1,7 +1,7 @@
 import gpflow as gpf
 import numpy as np
 import matplotlib.pyplot as plt
-plt.style.use('seaborn-darkgrid')
+plt.style.use('seaborn-v0_8-darkgrid')
 from gpflow.utilities import print_summary
 import time
 from MVMOO.mixedkernel import MixedMatern32
